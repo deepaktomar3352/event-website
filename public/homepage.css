@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+
+body {
+  background-color: rgb(247 247 247);
+}
+
+.navbg {
+  /* background-color: cornflowerblue; */
+  color: #fff;
+}
+
+.navcolor {
+  background-color: #000;
+}
+
+/* -----------------------------------------------------------ribin------------------------------------------------------------ */
+.ribinbg {
+  background-image: url('https://www.svgheart.com/wp-content/uploads/2021/11/text-divider-decorative-frame-decoration-free-svg-file-SvgHeart.Com.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 6rem;
+
+
+}
+
+
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+.abouth1color {
+  font-size: 3rem;
+  color: darkslategrey;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+
+}
+
+.c {
+  background-color: rgba(0, 0, 0, 0.479);
+}
+
+
+
+
+.abouth2 {
+  margin-left: 4%;
+  margin-top: 10%;
+  font-family: 'Playfair Display', serif;
+  color: rgb(61, 89, 89);
+  font-size: 4rem;
+  line-height: 75%;
+
+
+
+}
+
+.aboutp {
+  margin-left: 4%;
+  margin-top: 9%;
+  /* border: solid red; */
+  color: gray;
+}
+
+
+
+.maincsvg {
+
+  margin-top: 40%;
+}
+
+/* .aboutimgbg{
+    background-image: url('/images/aboutbgimg.png');
+  } */
+.aboutdiv {
+  overflow: hidden;
+  height: 35rem;
+
+}
+
+.eventp {
+  font-weight: 700;
+  color: darkslategrey;
+  font-size: larger;
+}
+
+.mainbtn {
+  margin-top: 30%;
+  margin-left: 40%;
+  height: 8%;
+  width: 14%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  /* background-color:; */
+}
+
+/* -------------------------sponser-------------------------------------- */
+.sponsor {
+  width: auto;
+  height: auto;
+  background-image: url("https://liveeventproductions.co.uk/wp-content/uploads/2018/01/event-production-services-live-event-productions-banner-image-4.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* position: sticky; */
+  /* border: solid red; */
+
+}
+
+.sponsercolor {
+
+  background-color: rgba(12, 3, 66, 0.781);
+  height: auto;
+  position: relative;
+}
+
+.sponsor h1 {
+  padding: 5rem 0 0 0;
+  font-size: 3.5rem;
+  color: aliceblue;
+  font-family: 'Playfair Display', serif;
+}
+
+.sponserlogo {
+  margin-top: 5rem;
+
+}
+
+.sponsorimg {
+  margin-bottom: 5rem;
+}
+
+.title {
+  margin-top: 4%;
+  font-size: 10rem;
+  margin-left: 8%;
+  font-family: "Tilt Prism";
+  /* font-family: "poppins"; */
+  color: antiquewhite;
+  text-transform: capitalize;
+}
+
+.title p {
+  font-size: 2rem;
+  margin-left: 52%;
+  margin-top: -4%;
+}
+
+
+
+
+@media screen and (max-width:735px) {
+
+  /* ************************************USED FOR TITLE*************************************** */
+  .title {
+    font-size: 4rem;
+    margin-left: 7%;
+  }
+
+  .title p {
+    font-size: 1rem;
+    margin-left: 66%;
+  }
+
+  /* *********************************************************************************************** */
+
+  /* ***************************************USED FOR HEADINGS******************************************* */
+  .abouth1color {
+    font-size: 1.6rem;
+    color: darkslategrey;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+
+  }
+
+  .ribinbg {
+    height: 4rem;
+  }
+
+  /* ******************************************************************************************************** */
+
+
+  /* *********************************USED FOR ABOUT CIRCLEPIC*************************************************** */
+
+  .aboutdiv {
+    height: 25rem;
+
+  }
+
+  .abouth2 {
+    font-size: 1.5rem;
+    line-height: 1%;
+  }
+
+
+}
